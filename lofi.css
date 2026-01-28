@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    background-image: url('https://i.pinimg.com/originals/54/e1/d6/54e1d64489baf626c6f3c93de93b6913.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.topLeft {
+    display: flex;
+    position: fixed;
+    left: 3vw;
+    top: 1vw;
+}
+
+#title {
+    font-size: medium;
+    font-family: Courier, monospace;
+    color: rgb(236, 233, 204);
+    font-weight: bold;
+}
+
+.bottomRight {
+    display: flex;
+    position: fixed;
+    right: 3vw;
+    bottom: 1.75vw;
+}
+
+#linkedin,
+#x,
+#github {
+    padding: 0.25vw;
+    width: 3vw;
+    height: auto;
+    cursor: pointer;
+}
+
+.topRight{
+    background-color:rgba(223, 212, 103,0.17);
+    position: fixed;
+    right: 3vw;
+    top: 1vw;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+    border-radius:  60px;
+    padding: 20px;
+}
+
+#timer{
+  position: absolute;
+  width:4vw;
+  height: auto;
+}
+
+#clock{
+  color:  black;
+  font-family: Courier, monospace;
+  margin-top: 5vw;
+  font-weight: bold;
+
+}
+
+.topRightButtons{
+  	position: relative;
+  	top: 0.5vw;
+ 	gap:0.5vw;
+  	display: flex;
+}
+
+.buttons{
+  font-family: Courier, monospace;
+  background-color: rgb(236, 233, 204);
+  border-radius: 50px;
+  cursor:pointer;
+  border : none;
+}
+
+.buttons:hover{
+    background-color: rgb(240, 231, 149);
+}
+
+.bottomMiddle {
+    width: 13vw;
+  	height: 3.5vw;
+    display: flex;
+    position: fixed;
+    gap: 1vw;
+  	right: 40vw;
+  	align-items: center;
+    border : none;
+    bottom: 1.75vw;
+}

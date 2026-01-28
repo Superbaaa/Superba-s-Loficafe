@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUPERBA'S LOFICAFE</title>
+    <link rel = 'stylesheet' href = 'lofi.css'>
+</head>
+<body>
+    <div class = 'topLeft'>
+    <h1 id = 'title'>SUPERBA'S LOFICAFE</h1>
+    </div>
+
+    <div class ='bottomRight'>
+        <img id = 'linkedin' onclick = 'openLinkedin()' src = 'linkedin.png'> 
+        <img id = 'github' onclick = 'openGithub()' src = 'github.png'>
+        <img id = 'x' onclick = 'openX()' src = 'x.png'>
+    </div>
+
+    <div class ='topRight'>
+        <div id = 'clock'>00:00:00</div>
+        <img id = 'timer' src = 'timer.png'>
+            <div class ='topRightButtons'>
+                <button id="startTimer" class = 'buttons' onclick="startTimer()">PLAY</button>
+                <button id="pauseTimer" class = 'buttons' onclick="pauseTimer()">PAUSE</button>
+                <button id="resetTimer" class = 'buttons' onclick="resetTimer()">RESET</button>
+            </div>
+    </div>
+
+    <div class = 'bottomMiddle'>
+        <button id="muteBtn" class = 'buttons' onclick="muteMusic()">🔇</button>
+        <button id="playBtn" class = 'buttons' onclick="playMusic()">▶</button>
+        <button id="pauseBtn" class = 'buttons' onclick="pauseMusic()">❚❚</button>
+    </div>
+    <script src = 'lofi.js'></script>
+</body>
+</html> 
